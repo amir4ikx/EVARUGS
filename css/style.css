@@ -483,7 +483,6 @@ html {
 
     .location,
     .instagram {
-        display: none;
     }
 
     .hero-img {
@@ -505,7 +504,6 @@ html {
     }
 
     .about-cards {
-        flex-wrap: wrap;
     }
 
     .about-card {
