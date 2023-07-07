@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="pop-up">
+        <form class="form">
+            <h2 class="form-heading">ФОРМА ЗАЯВКИ</h2>
+            <div class="inputs">
+                <input class="input" id="input1" type="text" placeholder="Ваше имя" required>
+                <input class="input" id="input2" type="email" placeholder="Ваш e-mail" required>
+            </div>
+            <textarea class="textarea"
+                placeholder="Ваше сообщение (марка автомобиля, цвет ковриков, номер телефона)"></textarea>
+            <button class="btn form-btn">ОТПРАВИТЬ</button>
+            <div class="pop-up-close">&#10060</div>
+        </form>
+    </div>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo"><img src="img/logo.svg"></a>
+            <a href="#" class="location"><img src="img/location.svg">ваш город</a>
+            <a href="#" class="instagram"><img src="img/instagram.svg">посетите нашу<br>страницу</a>
+            <div class="burgermenu-wrap burgermenu-non-active">
+                <span id="span-1"></span>
+                <span id="span-2"></span>
+                <span id="span-3"></span>
+            </div>
+            <div class="pull-out-menu pull-out-non-active">
+                <a href="#" class="location-pull-out"><img src="img/location.svg">ваш город</a>
+                <a href="#" class="instagram-pull-out"><img src="img/instagram.svg">посетите нашу<br>страницу</a>
+                <a class="pull-out-link" href="#about">О нас</a>
+                <a class="pull-out-link" href="#slider">Отзывы</a>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <h1 class="hero-heading">Инновационные коврики
+                <br>для автомобиля
+            </h1>
+            <p class="hero-subtitle">в вашем городе</p>
+            <a href class="btn book-btn">ЗАКАЗАТЬ</a>
+            <img class="hero-img" src="img/main-bg-img.png">
+        </section>
+        <section id="about" class="about">
+            <h2 class="about-heading">Что такое <span>EVA</span> коврики?</h2>
+            <div class="about-cards">
+                <div class="about-card">
+                    <img src="img/about1.jpg">
+                    <div class="about-card-text-content">
+                        <h2 class="about-card-title">МАТЕРИАЛ</h2>
+                        <p class="about-card-subtitle">Коврики EVA всесезонные и отличаются уникальной поверхностью
+                            материала с ячейками ромбовидной формы. Из-за чего вода не проливается при изъятии ковра
+                            и не плещется при езде. Коврики воду не пропускают.</p>
+                    </div>
+                </div>
+                <div class="about-card">
+                    <img src="img/about2.jpg">
+                    <div class="about-card-text-content">
+                        <h2 class="about-card-title">ОТЛИЧИЯ</h2>
+                        <p class="about-card-subtitle">Резиновые коврики загибаются и лезут на педали. EVA коврики
+                            такого не допустят! Специальные липучки держат его в одном положении. При желании, для
+                            водителя устанавливается подпятник из рельефного алюминия.</p>
+                    </div>
+                </div>
+                <div class="about-card">
+                    <img src="img/about3.jpg">
+                    <div class="about-card-text-content">
+                        <h2 class="about-card-title">РАСЦВЕТКА</h2>
+                        <p class="about-card-subtitle">Автомобильные коврики EVA можно заказать и в индивидуальных
+                            размерах и в разных цветах, которые комбинируется на выбор покупателя с такими же
+                            цветами окантовочной полипропиленовой ременной ленты.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="slider" class="slider">
+            <div class="slider-inner">
+                <div class="review low-opacity-review" id="review-1">
+                    <div id="img-1" class="img"></div>
+                    <p class="review-text">Коврики супер!!! Качество на высшем уровне!!!
+                        Удачи и побольше заказов вам!!! Большое спасибо!</p>
+                    <hr class="review-line">
+                    <p class="review-name">Константин В.</p>
+                </div>
+                <div class="review" id="review-2">
+                    <div id="img-2" class="img"></div>
+                    <p class="review-text">Покупала у ребят коврики для Хундай солярис в подарок молодому человеку.
+                        Все
+                        очень понравилось. Буду советовать только вас.</p>
+                    <hr class="review-line">
+                    <p class="review-name">Вера К.</p>
+                </div>
+                <div class="review low-opacity-review" id="review-3">
+                    <div id="img-3" class="img"></div>
+                    <p class="review-text">Спасибо, все приехало, поставил. Результатом доволен, в машине супер!
+                        Заказывал
+                        на Ниссан.</p>
+                    <hr class="review-line">
+                    <p class="review-name">Николай П.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-part">
+            <h5 class="footer-title">МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h5>
+            <img src="img/instagram-colorful.svg">
+        </div>
+        <div class="footer-part">
+            <h5 class="footer-title">КОНТАКТНЫЕ ТЕЛЕФОНЫ</h5>
+            <a href="tel:375292922929">+375 29 292-29-29 (VEL)</a><br>
+            <a href="tel:375333333333">+375 33 333-33-33 (МТС)</a>
+        </div>
+        <div class="footer-part">
+            <h5 class="footer-title">О НАС</h5>
+            <p>Индивидуальное изготовление EVA ковриков для вашего автомобиля<br><br>ваш город</p>
+        </div>
+        <img src="img/footer-rotate-1.svg" class="footer-img-1">
+        <img src="img/footer-rotate-2.svg" class="footer-img-2">
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
